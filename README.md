@@ -35,6 +35,7 @@ In the world of programming, "Rubber Duck Debugging" is a famous technique. **Th
    git clone [https://github.com/kanna-prx/aiwithfriend/blob/main/main.py]
 
 2. **Install dependencies**
+
    Run this command to install all required libraries:
    ```bash
    pip install -r requirements.txt
