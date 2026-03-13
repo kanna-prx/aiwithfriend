@@ -51,3 +51,8 @@ In the world of programming, "Rubber Duck Debugging" is a famous technique. **Th
    ```toml
    GEMINI_API_KEY = "your_actual_api_key_here"
 
+4. **Run the application**
+
+   To start **The Pro Duck** on your local machine, execute the following command in your terminal:
+   ```bash
+   streamlit run main.py
