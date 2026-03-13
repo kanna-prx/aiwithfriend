@@ -32,4 +32,4 @@ In the world of programming, "Rubber Duck Debugging" is a famous technique. **Th
 
 1. **Clone the Repo:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/the-pro-duck.git](https://github.com/YOUR_USERNAME/the-pro-duck.git)
+   git clone [https://github.com/kanna-prx/aiwithfriend/blob/main/main.py]
