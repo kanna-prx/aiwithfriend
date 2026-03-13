@@ -12,7 +12,7 @@ st.set_page_config(page_title="AI Exam Tutor", layout="wide")
 # --- 2. ตั้งค่า API ---
 API_KEY = st.secrets["GEMINI_API_KEY"] 
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-3.0-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # --- 3. ฟังก์ชันการคำนวณและประมวลผล ---
 def process_pdf(file_bytes):
@@ -113,3 +113,4 @@ if st.session_state['user_results']:
         
         st.metric("คะแนนเฉลี่ยของคุณ", f"{avg_score:.2f}%")
         st.write(f"โอกาสสอบติดคณะนี้: **{chance}**")
+
