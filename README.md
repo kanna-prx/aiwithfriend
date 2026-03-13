@@ -39,3 +39,15 @@ In the world of programming, "Rubber Duck Debugging" is a famous technique. **Th
    Run this command to install all required libraries:
    ```bash
    pip install -r requirements.txt
+
+3. **Configure Secrets**
+
+   To keep the API Key secure, this project uses Streamlit's secrets management.
+
+   #### 🌍 For Deployment (Streamlit Cloud):
+   1. Go to your **App Dashboard** on Streamlit Cloud.
+   2. Click on **Manage App** > **Settings** > **Secrets**.
+   3. Paste the following line (replace with your actual key):
+   ```toml
+   GEMINI_API_KEY = "your_actual_api_key_here"
+
