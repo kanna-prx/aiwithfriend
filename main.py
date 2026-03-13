@@ -113,7 +113,3 @@ if st.session_state['user_results']:
         
         st.metric("คะแนนเฉลี่ยของคุณ", f"{avg_score:.2f}%")
         st.write(f"โอกาสสอบติดคณะนี้: **{chance}**")
-
-if __name__ == '__main__':
-
-    app.run(debug=True)
